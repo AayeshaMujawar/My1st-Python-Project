@@ -1,0 +1,11 @@
+# main.py
+import time
+
+def greet_user(name):
+    print(f"Hello, {name}! Welcome to my Python project.")
+    time.sleep(1)
+    print("Enjoy exploring the code!")
+
+if __name__ == "__main__":
+    user_name = input("Enter your name: ")
+    greet_user(user_name)
